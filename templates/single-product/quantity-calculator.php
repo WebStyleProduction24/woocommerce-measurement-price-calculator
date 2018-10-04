@@ -80,6 +80,7 @@ $actual_amount_text = apply_filters(
 
 					?>
 					<span class="dashicons dashicons-editor-help wc-measurement-price-calculator-input-help tip" title="<?php echo esc_html( $help_text ); ?>"></span>
+					
 					<input
 						type="text"
 						name="<?php echo esc_attr( $measurement_name ); ?>"
@@ -89,6 +90,7 @@ $actual_amount_text = apply_filters(
 						data-common-unit="<?php echo esc_attr( $measurement->get_unit_common() ); ?>"
 						autocomplete="off"
 					/>
+					
 				</td>
 
 			</tr>
